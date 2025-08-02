@@ -22,24 +22,25 @@ It is developed using **Python, Playwright, FastAPI, and ChromaDB** as part of t
 ---
 
 ## Project Structure
-
+```
 automated_book_publication/
 │
-├── scrape_and_screenshot.py # Scrapes chapter and takes screenshot
-├── ai_writer_reviewer.py # AI text processing
-├── human_feedback_loop.py # Human review step
-├── agentic_api.py # FastAPI routes
-├── db_versioning.py # Database version control
-├── chapter1.txt # Scraped text
-├── chapter1_spun.txt # AI-processed text
-├── chapter1_final.txt # Final reviewed version
-└── README.md # Project documentation
+├── scrape_and_screenshot.py     # Scrapes chapter and takes screenshot
+├── ai_writer_reviewer.py        # AI text processing
+├── human_feedback_loop.py       # Human review step
+├── agentic_api.py               # FastAPI routes
+├── db_versioning.py             # Database version control
+├── chapter1.txt                 # Scraped text
+├── chapter1_spun.txt            # AI-processed text
+├── chapter1_final.txt           # Final reviewed version
+└── README.md                    # Project documentation
+```
 
 ---
 
-## How to Run the Project
+How to Run the Project
 
-1.**Create virtual environment (first time only)**:
+1.Create virtual environment (first time only):
 
 ```bash
 python -m venv venv
