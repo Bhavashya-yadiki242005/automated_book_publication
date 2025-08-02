@@ -1,4 +1,4 @@
-# 📘 Automated Book Publication Project
+# Automated Book Publication Project
 
 ### Submitted by: Bhavashya Chandra Yadiki
 
@@ -39,36 +39,23 @@ automated_book_publication/
 ---
 
 How to Run the Project
-
-1.Create virtual environment (first time only):
-
-```bash
+Create virtual environment (first time only):
 python -m venv venv
-2.Activate environment:
 
-bash
+Activate environment:
 venv\Scripts\activate
-3.Install dependencies:
 
-bash
-
+Install dependencies:
 pip install playwright requests beautifulsoup4 openai chromadb fastapi uvicorn pydantic pyttsx3 SpeechRecognition
 python -m playwright install
 
-4.Run the FastAPI server:
-
-bash
-
+Run the FastAPI server:
 uvicorn agentic_api:app --reload
-5.Open the browser:
 
-arduino
-
+Open the browser:
 http://127.0.0.1:8000/docs
 
 Proof of Completion
-Screenshots provided include:
-
 CMD showing successful scraping output
 
 CMD showing AI Writer output
@@ -79,3 +66,9 @@ FastAPI UI showing endpoints
 
 Database versioning success message
 
+Steps to Fix on GitHub:
+Edit your README file.
+
+Replace your current "How to Run the Project" section with the above text.
+
+Click Commit changes.
