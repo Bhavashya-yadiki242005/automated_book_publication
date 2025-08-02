@@ -55,6 +55,8 @@ uvicorn agentic_api:app --reload
 Open the browser:
 http://127.0.0.1:8000/docs
 
+
+
 Proof of Completion
 CMD showing successful scraping output
 
@@ -66,9 +68,4 @@ FastAPI UI showing endpoints
 
 Database versioning success message
 
-Steps to Fix on GitHub:
-Edit your README file.
 
-Replace your current "How to Run the Project" section with the above text.
-
-Click Commit changes.
