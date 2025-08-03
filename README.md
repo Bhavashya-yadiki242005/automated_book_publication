@@ -68,7 +68,11 @@ http://127.0.0.1:8000/docs
 
 
 Demo:
-A short demo video is included in the repository showing the full pipeline execution.
+A short demo video google drive loink is included here in the README  showing the full pipeline execution.
+LINK:
+
+https://drive.google.com/file/d/1_i9bybzzLvsnVWi7VjMKPuJ1gniJo5hS/view?usp=sharing
+
 
 
 
