@@ -34,6 +34,17 @@ automated_book_publication/
 ├── chapter1_spun.txt            # AI-processed text
 ├── chapter1_final.txt           # Final reviewed version
 └── README.md                    # Project documentation
+
+
+
+## API Endpoints
+- `/scrape` → Scrape book chapter
+- `/ai_writer` → AI text processing
+- `/human_review` → Manual review
+- `/download_final` → Download final text
+- `/voice_command` → Control via voice input
+- `/rl_feedback` → Reinforcement learning feedback
+
 ```
 
 ---
@@ -54,6 +65,10 @@ uvicorn agentic_api:app --reload
 
 Open the browser:
 http://127.0.0.1:8000/docs
+
+
+Demo:
+A short demo video is included in the repository showing the full pipeline execution.
 
 
 
