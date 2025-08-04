@@ -7,11 +7,11 @@
 ## Overview
 
 This project automates the process of fetching book chapters from the web, processing the text using AI, allowing a human review step, and saving multiple versions of the content.  
-It is developed using **Python, Playwright, FastAPI, and ChromaDB** as part of the Agentic AI task assignment.
+developed using **Python, Playwright, FastAPI, and ChromaDB** as part of the Agentic AI task assignment.
 
 ---
 
-## Key Features
+## Features
 
 - **Scraping:** Extract book content and save text with a screenshot.  
 - **AI Writer:** Perform basic AI-powered text transformation.  
@@ -21,29 +21,26 @@ It is developed using **Python, Playwright, FastAPI, and ChromaDB** as part of t
 
 ---
 
-## Project Structure
-```
-automated_book_publication/
-│
-├── scrape_and_screenshot.py     # Scrapes chapter and takes screenshot
-├── ai_writer_reviewer.py        # AI text processing
-├── human_feedback_loop.py       # Human review step
-├── agentic_api.py               # FastAPI routes
-├── db_versioning.py             # Database version control
-├── chapter1.txt                 # Scraped text
-├── chapter1_spun.txt            # AI-processed text
-├── chapter1_final.txt           # Final reviewed version
-└── README.md                    # Project documentation
+## Project Files:
+- scrape_and_screenshot.py → Script for scraping chapters
+- ai_writer_reviewer.py → Rewrites and processes text
+- human_feedback_loop.py → Lets user edit final text
+- agentic_api.py → FastAPI endpoints
+- db_versioning.py → Saves different versions of text
+- chapter1.txt → Raw scraped text
+- chapter1_final.txt → Final approved version
+- README.md
 
 
 
 ## API Endpoints
-- `/scrape` → Scrape book chapter
-- `/ai_writer` → AI text processing
-- `/human_review` → Manual review
-- `/download_final` → Download final text
-- `/voice_command` → Control via voice input
-- `/rl_feedback` → Reinforcement learning feedback
+- `/scrape` → Gets a book chapter from the website
+- `/ai_writer` → Rewrites the text automatically
+- `/human_review` → Lets you edit the text manually
+- `/download_final` → Download the final version of the text
+- `/voice_command` → Use voice input to control actions
+- `/rl_feedback` → Save feedback for improving results
+
 
 ```
 
@@ -68,23 +65,12 @@ http://127.0.0.1:8000/docs
 
 
 Demo:
-A short demo video google drive loink is included here in the README  showing the full pipeline execution.
+A  demo video google drive lunk is included here   showing the full pipeline execution.
 LINK:
 
 https://drive.google.com/file/d/1_i9bybzzLvsnVWi7VjMKPuJ1gniJo5hS/view?usp=sharing
 
+screenshots of diffrent steps are avaliable in the screenshots/folder.
 
-
-
-Proof of Completion
-CMD showing successful scraping output
-
-CMD showing AI Writer output
-
-CMD showing Human-in-the-Loop output
-
-FastAPI UI showing endpoints
-
-Database versioning success message
 
 
