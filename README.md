@@ -42,35 +42,6 @@ developed using **Python, Playwright, FastAPI, and ChromaDB** as part of the Age
 - `/rl_feedback` → Save feedback for improving results
 
 
-
-How to Run the Project
-Create virtual environment (first time only):
-python -m venv venv
-
-Activate environment:
-venv\Scripts\activate
-
-Install dependencies:
-pip install playwright requests beautifulsoup4 openai chromadb fastapi uvicorn pydantic pyttsx3 SpeechRecognition
-python -m playwright install
-
-Run the FastAPI server:
-uvicorn agentic_api:app --reload
-
-Open the browser:
-http://127.0.0.1:8000/docs
-
-
-Demo:
-A  demo video google drive lunk is included here   showing the full pipeline execution.
-LINK:
-
-https://drive.google.com/file/d/1_i9bybzzLvsnVWi7VjMKPuJ1gniJo5hS/view?usp=sharing
-
-screenshots of diffrent steps are avaliable in the screenshots/folder.
-
-
-
 How to Run the Project
 1. Create virtual environment (first time only):
 python -m venv venv
