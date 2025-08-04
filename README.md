@@ -74,3 +74,24 @@ screenshots of diffrent steps are avaliable in the screenshots/folder.
 
 
 
+How to Run the Project
+1. Create virtual environment (first time only):
+python -m venv venv
+
+2. Activate environment:
+venv\Scripts\activate
+
+3. Install dependencies:
+pip install playwright requests beautifulsoup4 openai chromadb fastapi uvicorn pydantic pyttsx3 SpeechRecognition
+python -m playwright install
+
+4. Run the FastAPI server:
+uvicorn agentic_api:app --reload
+5. Open the browser:
+http://127.0.0.1:8000/docs
+
+Demo:
+A demo video Google Drive link is included here showing the full pipeline execution.
+LINK: https://drive.google.com/file/d/1_i9bybzzLvsnVWi7VjMKPuJ1gniJo5hS/view?usp=sharing
+
+Screenshots of different steps are available in the screenshots/ folder.
