@@ -42,9 +42,6 @@ developed using **Python, Playwright, FastAPI, and ChromaDB** as part of the Age
 - `/rl_feedback` → Save feedback for improving results
 
 
-```
-
----
 
 How to Run the Project
 Create virtual environment (first time only):
